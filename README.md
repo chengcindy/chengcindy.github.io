@@ -1,2 +1,2 @@
-# http://chengcindy.github.io
+# http://chengcindy.com/
 personal website
