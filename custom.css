@@ -48,6 +48,10 @@ html, body {
   margin: 10px;
 }
 
+#youth {
+  height: 600px;
+}
+
 #name {
   text-align: center;
   font-size: 80px;
