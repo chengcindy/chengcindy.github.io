@@ -203,7 +203,7 @@ img {
 
 #errorkun {
   /*border: 1px solid #EBEBEB;*/
-  height: auto;
-  width: auto;
+  width: 1000px;
   margin-left: auto;
   margin-right: auto;
+}
