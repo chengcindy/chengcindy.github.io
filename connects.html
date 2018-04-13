@@ -1,0 +1,56 @@
+<head>
+  <link rel="stylesheet" href="assets/css/custom.css">
+<font face="Courier New">
+<link rel="stylesheet" href="bootstrap.min.css">
+<script type="text/javascript" src="bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+ <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+
+<title>  C I N D Y • CONNECT </title>
+
+  <body>
+  <div data-role="page">
+    <div data-role="header" data-position="fixed" id="header">
+      <a href="index.html">
+        <button type="button" class="btn btn-home" id="home">
+          <i class="fa fa-home fa-lg" aria-hidden="true"></i>
+        </button>
+      </a>
+      <h1 id="heading">C O N N E C T</h1>
+    </div>
+
+<div class="theContainer">
+  <div class="theSidebar">
+    <a href="#contact" onclick="doTheThing()"> Contact </a>
+    <br>
+    <a href="#social" onclick="doTheThing()"> Social </a>
+  </div>
+  <div class="theContent">
+    <img src="https://avatars0.githubusercontent.com/u/29268150?v=3&s=400" alt="Cindy Cheng and Strawberry" id="theimg">
+    <span></span>
+    <div id="contact">
+      <span> Email: rickydam (at) example (dot) com </span>
+      <br>
+      <span> Phone Number: (416) 123-4567 </span>
+    </div>
+    <div id="social">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/500px-F_icon.svg.png"
+           alt="Facebook social icon"
+           id="facebook">
+      <img src="https://c1.staticflickr.com/9/8168/7448717958_1738735d85_b.jpg"
+           alt="Instagram social icon"
+           id="instagram">
+      <br>
+    </div>
+  </div>
+</div>
+
+<script>
+  function doTheThing() {
+    document.getElementById("theimg").style.display = "none";
+  }
+</script>

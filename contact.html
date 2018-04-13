@@ -1,0 +1,30 @@
+<script>
+$('#puppies').click(function() {
+  $('div').html('Puppies');
+});
+
+$('#kittens').click(function() {
+  $('div').html('Kittens');
+});
+
+
+$('#aardvark').click(function() {
+  $('div').html('Aardvark');
+});
+
+/** --OR-- you could get the images alt attribute and print that out 
+
+$('#aardvark').click(function() {
+  var alt = $(this).attr('alt');
+  $('div').html(alt);
+});
+**/
+</script>
+
+<ul>
+  <li><img src="https://goo.gl/BvCy7" id="puppies" alt="puppies"/></li>
+  <li><img src="https://goo.gl/abTYj" id="kittens" alt="kittens"/></li>
+  <li><img src="https://goo.gl/qXyUY" id="aardvark" alt="aardvark"/></li>
+</ul>
+
+<div>Click on the picture for description.</div>

@@ -1,0 +1,202 @@
+span ~ div {
+  display: none;
+}
+
+:target {
+  display: block;
+}
+
+.theContainer {
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  position: relative;
+  font-family: 'Karla', sans-serif;
+}
+
+.theSidebar {
+  width: 20%;
+  height: 100%;
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+  margin-top: 300px;
+  margin-left: 200px;
+  position: absolute;
+}
+
+.theContent {
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  display: inline-block;
+  margin-left: 20%;
+  text-align: center;
+}
+
+.btn-default {
+  background-color: #474747;
+  border-radius: 100px;
+  color: #FFFFFF;
+}
+
+.btn:hover {
+  background-color: #D9D9D9;
+  border-color: #FFF0F5;
+  color: #000000;
+}
+
+.btn-home {
+  background-color: #FFFFFF;
+  border-radius: 100px;
+  border-color: #FFFFFF;
+  color: #000000;
+}
+
+.btn-home:hover {
+  color: lightgrey;
+  background-color:  #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: table;
+}
+
+#content {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#ricky {
+  /*border: 1px solid #EBEBEB;*/
+  height: auto;
+  width: 400px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+  font-family: 'karla', sans-serif;
+}
+
+#cindy {
+  border: 1px solid #EBEBEB;
+  height: auto;
+  width: auto;
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+}
+
+#koala {
+  width: 400px;
+  padding-left: 100px;
+}
+
+#thisone {
+  width: 300px!important;
+  margin: 10px;
+}
+
+
+img {
+  width: 50vw;
+  border: 1px solid #EBEBEB;
+  margin: 10px;
+
+}
+
+@media screen and (max-width: 767px) {
+  img {
+    width: 100%;
+  }
+}
+
+#name {
+  text-align: center;
+  font-size: 80px;
+  line-height: 60%;
+  font-style: italic;
+}
+
+#title {
+  float: right;
+  display: table-cell;
+  margin-right: 10px;
+  margin-top: -50px;
+}
+
+#gears {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#file {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#plane {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 10.5px;
+  padding-right: 10.5px;
+}
+
+#home {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+#axo:hover {
+  cursor: pointer;
+}
+
+#header {
+  height: 200px;
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+#heading {
+  font-size: 100px;
+  font color: lightgray;
+  font-family: 'karla', sans-serif;
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 70px;
+}
+
+.caption {
+  font size: 5px;
+  font color: lightgray;
+  font-family: 'karla', sans-serif;
+  text align: left;
+  padding-top: 50px;
+  padding-left: 130px;
+}
+
+#facebook {
+  width: 50px;
+  border: 0px;
+}
+
+#instagram {
+  width: 50px;
+  border: 0px;
+}
+
+#friend {
+  border: 0px;
+}
