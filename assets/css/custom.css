@@ -201,10 +201,9 @@ img {
   border: 0px;
 }
 
-#error {
+#errorkun {
   /*border: 1px solid #EBEBEB;*/
   height: auto;
-  width: 400px;
-  display: table-cell;
-  text-align: left;
+  width: auto;
+  margin: 10px;
   vertical-align: middle;
