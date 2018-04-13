@@ -200,3 +200,11 @@ img {
 #friend {
   border: 0px;
 }
+
+#error {
+  /*border: 1px solid #EBEBEB;*/
+  height: auto;
+  width: 400px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
