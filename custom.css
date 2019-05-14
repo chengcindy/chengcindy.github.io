@@ -21,6 +21,7 @@
 
 #content {
   display: table-cell;
+  margin:0px auto;
   text-align: center;
   vertical-align: middle;
 }
@@ -32,6 +33,7 @@
   display: table-cell;
   text-align: left;
   vertical-align: middle;
+    margin:0px auto;
 }
 
 #cindy {
@@ -41,6 +43,7 @@
   display: table-cell;
   text-align: left;
   vertical-align: middle;
+    margin:0px auto;
 }
 
 #thisone {
