@@ -73,6 +73,7 @@ span ~ div {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+  margin: auto;
 }
 
 #ricky {
@@ -80,9 +81,10 @@ span ~ div {
   height: auto;
   width: 400px;
   display: table-cell;
-  text-align: left;
+  text-align: center;
   vertical-align: middle;
   font-family: 'karla', sans-serif;
+
 }
 
 #cindy {
