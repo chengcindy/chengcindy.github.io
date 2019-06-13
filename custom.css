@@ -1,7 +1,7 @@
 body, html {
   height: 100%;
   display: grid;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   text-align: center;
   /* background: url(assets/images/splash.jpg) no-repeat center center fixed; */
   background-size: cover;
@@ -46,12 +46,12 @@ img {
 }
 
 .bio {
-  font-size: 13px;
+  font-size: 14px;
   color: #ADBCBB;
 }
 
 .h1 {
-  /* font-style: bold;  */
+  font-size: 30px;
   color: #4F4F4F;
 }
 
