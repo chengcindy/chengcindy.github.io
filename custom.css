@@ -1,11 +1,15 @@
 body, html {
   height: 100%;
   display: grid;
+  font-family: Rubik;
+  text-align: center;
+  /* background: url(assets/images/splash.jpg) no-repeat center center fixed; */
+  background-size: cover;
 }
 
-.btn-default {
-  background-color: #474747;
-  border-radius: 100px;
+
+.btn {
+  border-radius: 50%;
   border-color: #FFFFFF;
   color: #FFFFFF;
 }
@@ -17,5 +21,46 @@ body, html {
 }
 
 .card {
-  border-radius: 1rem
+  border-radius: 1rem;
+  border-width: .5px;
+  /* border-color: white; */
+  box-shadow: .5rem .5rem 0.5rem rgba(200,200,200,.5);
+  top: 0;
+  left: 0;
+  transition: box-shadow .5s, top .5s, left .5s, border-color .5s;
+}
+.card:hover {
+  border-color: white;
+  box-shadow: initial;
+  top: .5rem;
+  left: .5rem;
+}
+
+img {
+  border-radius: 50%;
+}
+
+#boop {
+  width: auto;
+  height: 10rem;
+}
+
+.bio {
+  font-size: 13px;
+  color: #ADBCBB;
+}
+
+.h1 {
+  /* font-style: bold;  */
+  color: #4F4F4F;
+}
+
+.homelinks img {
+  height: 2rem;
+}
+
+.homelinks a {
+  padding: .5rem;
+  margin: 0 .25rem;
+  /* box-shadow: 0.25rem 0.25rem 0.25rem 0rem rgba(200,200,200,.5); */
 }
